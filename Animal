@@ -1,0 +1,17 @@
+public class Animal {
+    private String name;
+    private Int years;
+    protected String breed;
+
+    public void setName(String name) {
+        this.name = name;}
+
+    public void setBreed(String breed) {
+        this.breed = breed;}
+
+    public void setYears(int years) {
+        this.years = years;}
+
+    public String getInf() {
+      return name, breed, years, Parents.inf();}
+}

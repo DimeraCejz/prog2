@@ -1,0 +1,16 @@
+public class Parents extends Animal {
+    private String name1;
+    private String name2;
+    private String breed1;
+    private String breed2;
+    public Parents(String name1, String name2, String breed1, String breed2) {
+        this.name1 = name1;
+        this.breed1 = breed1;
+        this.name2 = name2;
+        this.breed2 = breed2;
+    }
+    public void inf() {
+        return name1, breed1, name2, breed2;
+    }
+
+}

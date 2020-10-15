@@ -1,0 +1,16 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        Animal fish = new Animal();
+        fish.setName("Бриллиант");
+        fish.setBreed("Орловский рысак");
+        fish.setYears(2.5);
+        System.out.println(fish.getName());
+        System.out.println(fish.setBreed());
+
+        Parents sharik = new Parents("Бриз", "Орловский рысак", "Сапфир", "Донская");
+
+        System.out.println(fish.getInf());
+    }
+}
